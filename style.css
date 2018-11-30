@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	font-family: "HG明朝E",Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho",serif;
+}
+div#wrapper{
+	width: 90%;
+	margin: 5% 5%;
+}
+img{
+	width: 100%;
+}
+.logo{
+	width: 33%;
+	position: absolute;
+	top: 2%;
+	left: 3%;
+}
+.mv{
+	position: relative;
+}
+.tb{
+	position: absolute;
+	width: 20%;
+	top: 80%;
+	left: 40%;
+}
+.mt50{
+	margin-top: 50px;
+}

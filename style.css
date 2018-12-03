@@ -5,7 +5,7 @@ body{
 div#wrapper{
 	width: 100%;
 	margin:0px;
-	background-color: #000000;
+	background-color: #FFFFFF;
 }
 img{
 	width: 100%;
@@ -25,12 +25,21 @@ img{
 	top: 80%;
 	left: 40%;
 }
-.mt50{
-	margin-top: 50px;
+.mt200{
+	margin-top: 200px;
+}
+.mt05{
+	margin-top: -0.5%;
+}
+.ml7{
+	margin-left: 7%;
+}
+.fs20{
+	font-size: 20px;
 }
 .content{
-	width: 90%;
-	margin: 0 5%;
+	width: 80%;
+	margin: 0 10%;
 }
 ul#globalnav{
 	width: 60%;

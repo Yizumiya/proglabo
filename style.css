@@ -22,11 +22,17 @@ img{
 .tb{
 	position: absolute;
 	width: 20%;
-	top: 80%;
+	top: 65%;
 	left: 40%;
 }
-.mt200{
-	margin-top: 200px;
+.mt24{
+	margin-top: 24%;
+}
+.mt12{
+	margin-top: 12%
+}
+.mb12{
+	margin-bottom: 12%;
 }
 .mt05{
 	margin-top: -0.5%;
@@ -34,17 +40,14 @@ img{
 .ml7{
 	margin-left: 7%;
 }
-.fs20{
-	font-size: 20px;
-}
-.content{
+div#contents{
 	width: 80%;
 	margin: 0 10%;
 }
 ul#globalnav{
 	width: 60%;
 	padding: 0px;
-	font-size: 15px;
+	font-size: 1.2vw;
 	display: flex;
 	position: absolute;
 	top: 5%;
@@ -57,4 +60,81 @@ ul#globalnav li{
 ul#globalnav li a{
 	text-decoration: none;
 	color: #ffffff;
+}
+div#footer{
+	background-color: #39aad1;
+	font-family: "Meiryo UI";
+	color: #ffffff;
+	padding: 1% 3%;
+	margin-top: 12%;
+}
+ul#footter-gn1{
+	width: 70%;
+	padding: 0px;
+	margin-top: 0.1%;
+	margin-bottom: 0px;
+	font-size: 15px;
+	display: flex;
+	float: left;
+	font-size: 1.2vw;
+}
+ul#footter-gn1 li{
+	list-style: none;
+	margin-left: 7%;
+}
+ul#footter-gn1 li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+ul#footter-gn2{
+	width: 70%;
+	padding: 0px;
+	margin-top: 1%;
+	margin-bottom: 0px;
+	font-size: 15px;
+	display: flex;
+	float: left;
+	font-size: 1.2vw;
+}
+ul#footter-gn2 li{
+	list-style: none;
+	margin-left: 7%;
+}
+ul#footter-gn2 li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.fl{
+	float: left;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.ml3{
+	margin-left: 3%;
+}
+.fs2v{
+	font-size: 2vw;
+}
+.fs12v{
+	font-size: 1.2vw;
+}
+.fs14v{
+	font-size: 1.4vw;
+}
+.mtb0{
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+.w202{
+	width: 20.2%;
+}
+.center{
+	text-align: center;
+}
+
+@media only screen and (max-width: 650px){
+
 }

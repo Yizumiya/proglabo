@@ -25,9 +25,6 @@ img{
 	top: 65%;
 	left: 40%;
 }
-.mt24{
-	margin-top: 24%;
-}
 .mt12{
 	margin-top: 12%
 }
@@ -136,6 +133,10 @@ ul#footter-gn2 li a{
 }
 hr{
 	border-top: 1px solid #e0e0e0;
+}
+.td a{
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 @media only screen and (max-width: 1200px){

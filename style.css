@@ -11,19 +11,25 @@ img{
 	width: 100%;
 }
 .logo{
-	width: 33%;
+	width: 27%;
 	position: absolute;
 	top: 2%;
 	left: 3%;
+}
+.top_dis{
+	width: 42%;
+	position: absolute;
+	top: 25%;
+	left: 30%;
 }
 .mv{
 	position: relative;
 }
 .tb{
 	position: absolute;
-	width: 20%;
-	top: 65%;
-	left: 40%;
+	width: 17%;
+	top: 55%;
+	left: 41%;
 }
 .mt12{
 	margin-top: 12%

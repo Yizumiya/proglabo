@@ -78,7 +78,8 @@ div#footer{
 ul#footter-gn1{
 	width: 70%;
 	padding: 0px;
-	margin-top: 0.1%;
+	margin-top: 1%;
+	margin-left: 1%;
 	margin-bottom: 0px;
 	font-size: 15px;
 	display: flex;
@@ -98,6 +99,7 @@ ul#footter-gn2{
 	padding: 0px;
 	margin-top: 1%;
 	margin-bottom: 0px;
+	margin-left: 1%;
 	font-size: 15px;
 	display: flex;
 	float: left;
@@ -113,6 +115,7 @@ ul#footter-gn2 li a{
 }
 .fl{
 	float: left;
+	margin-top: 0.5%;
 }
 .clearfix::after{
 	content: "";

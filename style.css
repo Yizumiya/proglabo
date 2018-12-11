@@ -48,13 +48,15 @@ div#contents{
 	width: 80%;
 	margin: 0 10%;
 }
-div#ham-menu{
+div#ham{
 	display: none;
 }
 ul#globalnav{
 	width: 60%;
 	padding: 0px;
 	font-size: 1.2vw;
+	display: -webkit-box;
+	display: -webkit-flex;
 	display: flex;
 	position: absolute;
 	top: 5%;
@@ -82,9 +84,10 @@ ul#footter-gn1{
 	margin-left: 1%;
 	margin-bottom: 0px;
 	font-size: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
 	display: flex;
 	float: left;
-	font-size: 1.2vw;
 }
 ul#footter-gn1 li{
 	list-style: none;
@@ -101,9 +104,10 @@ ul#footter-gn2{
 	margin-bottom: 0px;
 	margin-left: 1%;
 	font-size: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
 	display: flex;
 	float: left;
-	font-size: 1.2vw;
 }
 ul#footter-gn2 li{
 	list-style: none;
@@ -154,67 +158,91 @@ hr{
 ul#globalnav{
 	display: none;
 }
-div#ham-menu{
+div#ham{
 	display: block;
-	background-color: #ffffff; /*メニュー背景色*/
-    box-sizing: border-box;
-    height: 100%;
-    padding: 10px 40px; /*メニュー内部上下左右余白*/
-    position: fixed;
-    right: -260px; /*メニュー横幅①と合わせる*/
-    top: 0;
-    transition: transform 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
-    width: 260px; /*メニュー横幅①*/
-    z-index: 1000;
 }
-div#ham-menu::before {
-	background-color: #ffffff; /*ボタン部分背景色*/
-	color: #333; /*アイコン（フォント）色*/
-	content: "≡"; /*メニューアイコン*/
-	display: block;
-	font-size: 50px; /*アイコン（フォント）サイズ*/
-	height: 50px;
-	line-height: 50px; /*縦位置中央化*/
-	position: absolute;
-	right: 100%;
-	text-align: center;
-	top: 0px;
-	width: 50px;
-}
-div#menu-background {
-	background-color: #333; /*黒背景部分背景色*/
-	display: none;
-	height: 100%;
-	opacity: 0;
-	position: fixed;
-	right: 0;
-	top: 0;
-	transition: all 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
-	width: 100%;
-	z-index: -1;
-}
-div#ham-menu:hover {
-    transform: translate(-250px); /*メニュー横幅①と合わせる*/
-}
-#ham-menu:hover + #menu-background {
-    opacity: 0.5; /*黒背景部分透過度*/
-    z-index: 999;
+.btn {
     display: block;
+    width:10%;
+    height: 10%;
+    position: fixed;
+    top:0;
+    right:0;
+    cursor: pointer;
+    z-index: 200;
 }
-div#ham-menu a{
-	text-decoration: none;
-	color: #808080;
+.peke {
+    background-position: -35px 0;
+}
+.drawr {
+    display: none;
+    background-color:#FFFFFF;
+    position: fixed;
+    top: 0px;
+    right:0;
+    width:260px;
+    height: 100%;
+    padding: 50px 0 20px 0px;
+    z-index: 100;
+}
+#menu li {
+	list-style: none;
+    width:260px;
+}
+#menu li a {
+    color:#000000;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 }
 ul#footter-gn1{
-	display: none;
+	font-size: 13px;
 }
 ul#footter-gn2{
-	display: none;
+	font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width: 1035px){
+
+ul#footter-gn1{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 3%;
+	font-size: 14px;
+}
+ul#footter-gn2{
+	width: 100%;
+	margin-left: 0px;
+	font-size: 14px;
+}
+ul#footter-gn1 li{
+	margin-left: 0px;
+	margin-right: 7%;
+}
+ul#footter-gn2 li{
+	margin-left: 0px;
+	margin-right: 7%;
 }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 791px){
 
+ul#footter-gn1{
+	display: block;
+	font-size: 18px;
+}
+ul#footter-gn2{
+	display: block;
+	font-size: 18px;
+}
+ul#footter-gn1 li{
+	margin-top: 3%;
+}
+ul#footter-gn2 li{
+	margin-top: 3%;
+}
 .fs25{
 	font-size: 20px;
 }

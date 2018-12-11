@@ -7,13 +7,58 @@
 		<title>Prog-Loboratory</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/g-analytics.js"></script>
+		<script>
+		$(function($) {
+    WindowHeight = $(window).height();
+    $('.drawr').css('height', WindowHeight); //メニューをwindowの高さいっぱいにする
+     
+    $(document).ready(function() {
+        $('.btn').click(function(){ //クリックしたら
+      if($('.drawr').is(":animated")){
+        return false;
+      }else{
+        $('.drawr').animate({width:'toggle'}); //animateで表示・非表示
+        $(this).toggleClass('peke'); //toggleでクラス追加・削除
+        return false;
+      }
+        });
+    });
+   
+  //別領域をクリックでメニューを閉じる
+  $(document).click(function(event) {
+    if (!$(event.target).closest('.drawr').length) {
+      $('.btn').removeClass('peke');
+      $('.drawr').hide();
+    }
+  });
+   
+});
+</script>
 	</head>
 	<body>
 		<div id = "wrapper">
 			<div id="header">
 			<div class="mv">
 				<a href="#header"><img class="logo" src="img/logo.png" /></a>
+
 				<div class="gnf">
+					<div id="ham">
+						<a class="btn"><img src="img/btn.png" /></a>
+						<div class="drawr">
+    						<ul id="menu">
+   								<li><a href="#sn">サービス内容</a></li>
+    							<li><a href="#tc">特徴</a></li>
+    							<li><a href="#cs">コース紹介</a></li>
+    							<li><a href="#rp">料金プラン</a></li>
+    							<li><a href="#js">実績紹介</a></li>
+    							<li><a href="#ss">資料請求／お問い合わせ</a></li>
+    						</ul>
+						</div>
+					</div>
+
+			<!--
 				<div id="ham-menu">
 					<div><a href="#sn">サービス内容</a></div>
 					<div><a href="#tc">特徴</a></div>
@@ -22,6 +67,8 @@
 					<div><a href="#js">実績紹介</a></div>
 					<div><a href="#ss">資料請求／お問い合わせ</a></div>
 				</div>
+			-->
+			
 				<ul id = "globalnav">
 					<li><a href="#sn">サービス内容</a></li>
 					<li><a href="#tc">特徴</a></li>
@@ -77,7 +124,7 @@
 				<hr>
 				<img class="mt12" src="img/index_img15.jpg" />
 				<p class="ml7 fs14v mb12">適用条件や助成金メニューなどについて、詳しくはお問い合わせください。<br/><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html" target="_blank">厚生労働省のサイト</a>より詳細が確認できます。</p>
-
+			</div>
 				<div id="ss">
 				<script src="https://sdk.form.run/js/v2/embed.js"></script>	
 
@@ -88,7 +135,7 @@
 
 				</div>
 				</div>
-  			</div>
+  			
   			<div id="footer">
   				<div class="main clearfix">
   				<div class="fl">
@@ -105,9 +152,9 @@
 					<li><a href="#ss">資料請求／お問い合わせ</a></li>
 				</ul>
 				<ul id = "footter-gn2">
-					<li><a href="">運営会社</a></li>
-					<li><a href="">特定商取引法に基づく表示</a></li>
-					<li><a href="">プライバシーポリシー</a></li>
+					<li><a href="https://li-n.net/" target=”_blank>運営会社</a></li>
+					<li><a href="http://geekgirl-labo.com/specified/" target=”_blank>特定商取引法に基づく表示</a></li>
+					<li><a href="http://geekgirl-labo.com/privacy/" target=”_blank>プライバシーポリシー</a></li>
 				</ul> 
 			
 				</div>

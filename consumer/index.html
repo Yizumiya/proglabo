@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="ProgLobo">
+		<meta name="keyword" content="ProgLobo">
+		<title>Prog-Loboratory</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script>
+			$(function($) {
+    			WindowHeight = $(window).height();
+    			$('.drawr').css('height', WindowHeight); //メニューをwindowの高さいっぱいにする
+     
+    			$(document).ready(function() {
+        			$('.btn').click(function(){ //クリックしたら
+      					if($('.drawr').is(":animated")){
+       					return false;
+      					}else{
+        					$('.drawr').animate({width:'toggle'}); //animateで表示・非表示
+        					$(this).toggleClass('peke'); //toggleでクラス追加・削除
+        					return false;
+      					}
+        			});
+    			});
+   
+				//別領域をクリックでメニューを閉じる
+  				$(document).click(function(event) {
+    				if (!$(event.target).closest('.drawr').length) {
+      					$('.btn').removeClass('peke');
+      					$('.drawr').hide();
+    				}
+  				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id = "wrapper">
+			<div id="header">
+			<div class="mv">
+				<a href="#header"><img class="logo" src="img/logo.png" /></a>
+
+				<div class="gnf">
+					<div id="ham">
+						<a class="btn"><img src="img/btn.png" /></a>
+						<div class="drawr">
+    						<ul id="menu">
+   								<li><a href="">選ばれる理由</a></li>
+    							<li><a href="">就職までのステップ</a></li>
+    							<li><a href="">卒業生の声</a></li>
+    							<li><a href="">Q&A</a></li>
+    							<li><a href="">お問い合わせ</a></li>
+    						</ul>
+						</div>
+					</div>
+					<ul id = "globalnav">
+					<li><a href="">選ばれる理由</a></li>
+					<li><a href="">就職までのステップ</a></li>
+					<li><a href="">卒業生の声</a></li>
+					<li><a href="">Q&A</a></li>
+					<li><a href="">お問い合わせ</a></li>
+				</ul>
+				</div>
+				<img src="img/top_first.jpg" />
+			</div>
+			</div>
+
+			<div id="contents">
+				<img class="mt12" src="img/index_img01.JPG" />
+				<img class="mt12" src="img/index_img02.JPG" />
+				<img class="mt12" src="img/index_img03.JPG" />
+				<img src="img/index_img04.JPG" />
+				<img class="mt12" src="img/index_img05.JPG" />
+				<img class="mt12" src="img/index_img06.JPG" />
+				<img class="mt12" src="img/index_img07.JPG" />
+				<img src="img/index_img08.JPG" />
+				<img src="img/index_img09.JPG" />
+				<img src="img/index_img10.JPG" />
+
+				<div class="mv mt12">
+					<img src="img/index_img11.jpg" />
+				<div class="s_btn">
+					<img src="img/soudan_btn.png" />
+				</div>
+				</div>
+
+				<img class="mt12" src="img/index_img12.jpg" />
+				<img src="img/index_img13.JPG" />
+				<img src="img/index_img14.JPG" />
+				<img src="img/index_img15.jpg" />
+
+				<div class="w100 mt12">
+					<div class="voice">
+						<img src="img/sotsugyousei_voice.png" />
+					</div>
+				</div>
+
+				<img src="img/index_img16.JPG" />
+				
+				<div class="w100">
+					<div class="w73">
+						<img src="img/index_17.png" />
+					</div>
+				</div>
+
+				<img class="mt12" src="img/index_img18.JPG" />
+				<img src="img/index_img19.JPG" />
+				<img class="mt12" src="img/index_img20.JPG" />
+				<img class="mt12" src="img/index_img21.jpg" />
+
+			</div>
+
+			<div id="footer">
+  				<div class="main clearfix">
+  				<p class="fs25 td"><a href="#header"><b>Prog-Laboratory</b></a></p>
+  				
+  				<div class="w43">
+  				<ul id = "footter-gn1">
+					<li class="mr8"><a href="">選ばれる理由</a></li>
+					<li class="mr8"><a href="">就職までのステップ</a></li>
+					<li class="mr8"><a href="">卒業生の声</a></li>
+					<li class="mr8"><a href="">Q&A</a></li>
+					<li><a href="">問い合わせ</a></li>
+				</ul>
+				<ul id = "footter-gn2">
+					<li class="mr8"><a href="">運営会社</a></li>
+					<li class="mr8"><a href="">特定商取引法に基づく表示</a></li>
+					<li><a href="">プライバシーポリシー</a></li>
+				</ul> 
+				</div>
+			
+				</div>
+  			</div>
+
+		</div>
+	</body>
+</html>

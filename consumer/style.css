@@ -7,11 +7,18 @@ div#wrapper{
 	width: 100%;
 }
 img{
-	width: 100%;
 	display: block;
+	width: 100%;
+}
+.w80{
+	width: 80%;
+	margin: 0 auto;
 }
 .bgf2{
 	background-color: #F2F2F2;
+}
+.bge7{
+	background-color: #E7F5F9;
 }
 .logo{
 	width: 27%;
@@ -45,23 +52,17 @@ ul#globalnav li a{
 	color: #ffffff;
 }
 div#contents{
-	width: 80%;
-	margin:0px auto;
 }
 .s_btn{
 	width: 50%;
 	position: absolute;
-	top: 50%;
+	top: 47.5%;
 	left: 25%;
 }
 .voice{
 	width: 15%;
 	margin: 0 auto;
 	padding: 2% 0;
-}
-.w100{
-	width: 100%;
-	background-color: #E7F5F9;
 }
 .w73{
 	width: 73.43%;
@@ -72,6 +73,9 @@ div#contents{
 }
 .pt3{
 	padding-top: 3%;
+}
+.pt2{
+	padding-top: 2%;
 }
 div#footer{
 	background-color: #39aad1;

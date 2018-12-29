@@ -1,15 +1,17 @@
 body{
 	margin: 0px;
+	padding: 0px;
 	font-family: sans-serif,"HG明朝E",Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho",serif;
 }
 div#wrapper{
 	width: 100%;
-	margin:0px;
-	background-color: #ffffff;
 }
 img{
 	width: 100%;
 	display: block;
+}
+.bgf2{
+	background-color: #F2F2F2;
 }
 .logo{
 	width: 27%;
@@ -44,12 +46,12 @@ ul#globalnav li a{
 }
 div#contents{
 	width: 80%;
-	margin: 0 10%;
+	margin:0px auto;
 }
 .s_btn{
 	width: 50%;
 	position: absolute;
-	top: 32%;
+	top: 50%;
 	left: 25%;
 }
 .voice{
@@ -65,8 +67,11 @@ div#contents{
 	width: 73.43%;
 	margin: 0 auto;
 }
-.mt12{
-	margin-top: 12%;
+.mt6{
+	margin-top: 6%;
+}
+.pt3{
+	padding-top: 3%;
 }
 div#footer{
 	background-color: #39aad1;

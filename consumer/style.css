@@ -62,7 +62,7 @@ div#contents{
 .voice{
 	width: 15%;
 	margin: 0 auto;
-	padding: 2% 0;
+	padding: 3% 0 2%;
 }
 .w73{
 	width: 73.43%;
@@ -71,11 +71,17 @@ div#contents{
 .mt6{
 	margin-top: 6%;
 }
+.pt4{
+	padding-top: 4%;
+}
 .pt3{
 	padding-top: 3%;
 }
 .pt2{
 	padding-top: 2%;
+}
+.pb4{
+	padding-bottom: 4%;
 }
 div#footer{
 	background-color: #39aad1;

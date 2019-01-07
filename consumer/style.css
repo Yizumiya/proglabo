@@ -10,6 +10,12 @@ img{
 	display: block;
 	width: 100%;
 }
+.p_dn{
+	display: block;
+}
+.s_dn{
+	display:none;
+}
 .w80{
 	width: 80%;
 	margin: 0 auto;
@@ -21,10 +27,10 @@ img{
 	background-color: #E7F5F9;
 }
 .logo{
-	width: 27%;
+	width: 22%;
 	position: absolute;
-	top: 2%;
-	left: 3%;
+	top: 1%;
+	left: 2%;
 }
 .mv{
 	position: relative;
@@ -35,21 +41,27 @@ div#ham{
 ul#globalnav{
 	width: 60%;
 	padding: 0px;
-	font-size: 1.2vw;
+	font-size: 19px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
 	position: absolute;
-	top: 5%;
+	top: 1.5%;
 	left: 40%;
 }
 ul#globalnav li{
 	list-style: none;
-	margin-left: 4%;
+	margin-left: 5%;
 }
 ul#globalnav li a{
 	text-decoration: none;
 	color: #ffffff;
+}
+.f_btn{
+	width: 35%;
+	position: absolute;
+	top: 83%;
+	left: 32.5%;
 }
 div#contents{
 }
@@ -173,11 +185,11 @@ div#ham{
 }
 .btn {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     position: fixed;
-    top:0;
-    right:0;
+    top:0%;
+    right:0%;
     cursor: pointer;
     z-index: 200;
 }
@@ -236,13 +248,21 @@ div#ham{
 @media only screen and (max-width: 662px){
 
 ul#footter-gn1{
-	display: block;
+	width: 35%;
+	display: inline-block;
+	float: left;
+	padding-left: 15%;
+	text-align: left;
 }
 ul#footter-gn1 li{
 	margin-top: 5%;
 }
 ul#footter-gn2{
-	display: block;
+	width: 35%;
+	display: inline-block;
+	float: left;
+	padding-right: 15%;
+	text-align: left;
 }
 ul#footter-gn2 li{
 	margin-top: 5%;
@@ -251,6 +271,50 @@ ul#footter-gn2 li{
 	margin-right: 0;
 }
 div#footer{
-	text-align: start;
+	text-align: center;
+}
+}
+
+@media only screen and (max-width: 479px){
+
+.p_dn{
+	display: none;
+}
+.s_dn{
+	display: block;
+}
+.logo{
+	width: 25%;
+}
+.f_btn{
+	top: 88%;
+}
+.s_yaji{
+	width: 20%;
+	margin: 0 auto;
+}
+.s_pb10{
+	padding-bottom: 10%;
+}
+.s_pb15{
+	padding-bottom: 15%;
+}
+.s_mb10{
+	margin-bottom: 10%;
+}
+.s_mb15{
+	margin-bottom: 15%;
+}
+.s_mv{
+	position: relative;
+}
+.s_tuduki{
+	position: absolute;
+	font-size: 7px;
+	top: 83%;
+	left: 65%;
+}
+.s_tuduki a{
+	color: #ffa500;
 }
 }

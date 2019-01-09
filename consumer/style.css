@@ -178,9 +178,16 @@ ul#globalnav{
 }
 
 }
-
-
 @media only screen and (max-width: 1200px){
+ul#globalnav{
+	font-size: 13px;
+}
+.w51{
+	width: 76%;
+}
+}
+
+@media only screen and (max-width: 1024px){
 
 ul#globalnav{
 	display: none;
@@ -225,9 +232,7 @@ div#ham img{
     padding: 10px;
     text-decoration: none;
 }
-.w51{
-	width: 76%;
-}
+
 }
 
 @media only screen and (max-width: 1020px){

@@ -4,8 +4,6 @@ body{
 }
 div#wrapper{
 	width: 100%;
-	margin:0px;
-
 }
 img{
 	width: 100%;
@@ -152,12 +150,14 @@ hr{
 	text-decoration: none;
 	color: #FFFFFF;
 }
-div#flow{
-	margin: 0 10%;
-	background-color:#f2f2f2;
+#wrapper .flow{
+	padding: 0 10%;
+	background-color: #f2f2f2;
 	width: 80%;
 }
-
+.pt3{
+	padding-top: 3%;
+}
 
 @media only screen and (max-width: 1200px){
 

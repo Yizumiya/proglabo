@@ -10,7 +10,7 @@ img{
 }
 .logo{
 	width: 27%;
-	position: fixed;
+	position: absolute;
 	top: 2%;
 	left: 3%;
 }
@@ -63,7 +63,7 @@ ul#globalnav{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	position: fixed;
+	position: absolute;
 	top: 5%;
 	left: 40%;
 }

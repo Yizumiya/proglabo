@@ -8,6 +8,12 @@ div#wrapper{
 img{
 	width: 100%;
 }
+.dn{
+	display: none;
+}
+.db{
+	display: block;
+}
 .logo{
 	width: 27%;
 	position: absolute;
@@ -15,10 +21,15 @@ img{
 	left: 3%;
 }
 .top_dis{
-	width: 42%;
+	width: 60%;
 	position: absolute;
 	top: 25%;
-	left: 28%;
+	left: 0%;
+}
+.top_dis2{
+	width: 100%;
+	position: absolute;
+	bottom: -6%;
 }
 .header_fix{
 	justify-content: space-between;
@@ -30,6 +41,48 @@ img{
 .mv{
 	position: relative;
 }
+.sokusen{
+	background: #82cbd0;
+	padding-top: 1.5%;
+	padding-bottom: 9%;
+	
+}
+.sokusen_title{
+	display: block;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sokusen_contents{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sokusen_dis{
+	width: 65%;
+	float: left;
+}
+.sokusen_dis1{
+	
+}
+.sokusen_dis2{
+	padding-left: 2%;
+}
+.sokusen_img{
+	width: 35%;
+}
+.sokusen_footer{
+	clear: both;	
+}
+.w95{
+	width: 95%;
+}
+.w70{
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .tb{
 	position: absolute;
 	width: 17%;
@@ -37,8 +90,23 @@ img{
 	left: 40%;
 	opacity: 0.7;
 }
+.mt4_2{
+	margin-top: 4.2%;
+}
+.mt16_2{
+	margin-top: 16.2%;
+}
 .mt12{
 	margin-top: 12%
+}
+.mt6{
+	margin-top: 6%;
+}
+.mt3{
+	margin-top: 3%;
+}
+.mt2{
+	margin-top: 2%;
 }
 .mb12{
 	margin-bottom: 12%;
@@ -73,7 +141,7 @@ ul#globalnav li{
 }
 ul#globalnav li a{
 	text-decoration: none;
-	color: #ffffff;
+	color: #000000;
 }
 div#footer{
 	background-color: #39aad1;
@@ -165,6 +233,7 @@ hr{
 .pt3{
 	padding-top: 3%;
 }
+
 
 @media only screen and (max-width: 1200px){
 

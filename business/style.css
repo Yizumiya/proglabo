@@ -14,12 +14,24 @@ img{
 .db{
 	display: block;
 }
-.logo{
-	width: 27%;
-	position: absolute;
-	top: 2%;
-	left: 3%;
+.df{
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background: rgba(255,255,255,0.5);
+	
 }
+.gnf{
+	width: 80%;
+}
+.logo{
+	width: 90%;
+	margin-left: 10%;
+}
+
 .top_dis{
 	width: 60%;
 	position: absolute;
@@ -28,8 +40,10 @@ img{
 }
 .top_dis2{
 	width: 100%;
-	position: absolute;
-	bottom: -6%;
+}
+.yajirushi{
+	width: 100%;
+	background: #82cbd0;
 }
 .header_fix{
 	justify-content: space-between;
@@ -48,7 +62,6 @@ img{
 	
 }
 .sokusen_title{
-	display: block;
 	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
@@ -72,16 +85,36 @@ img{
 	width: 35%;
 }
 .sokusen_footer{
-	clear: both;	
+	clear: both;
+}
+.cv{
+	position: relative;
+	margin-top: 12%;
+}
+.cv_cur{
+	position: absolute;
+	top: 36%;
+	left: 30%;
+	width: 40%;
+}
+.cv_oto{
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	width: 40%;
 }
 .w95{
 	width: 95%;
 }
 .w70{
-	display: block;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+}
+.w40{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .tb{
 	position: absolute;
@@ -119,21 +152,20 @@ img{
 }
 div#contents{
 	width: 70%;
-	margin: 0 14%;
+	margin: 0 auto;
 }
 div#ham{
 	display: none;
 }
 ul#globalnav{
-	width: 60%;
+	width: 100%;
 	padding: 0px;
-	font-size: 1.2vw;
+	font-size: 15px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	position: absolute;
-	top: 5%;
-	left: 40%;
+	margin-top: 4%;
+	margin-left: 5%;
 }
 ul#globalnav li{
 	list-style: none;
@@ -205,11 +237,11 @@ ul#footter-gn2 li a{
 .fs25{
 	font-size: 25px;
 }
+.fs20{
+	font-size: 20px;
+}
 .fs15{
 	font-size: 15px;
-}
-.fs14v{
-	font-size: 1.4vw;
 }
 .mtb0{
 	margin-top: 0%;
@@ -238,6 +270,53 @@ hr{
 @media only screen and (max-width: 1200px){
 
 ul#globalnav{
+	font-size: 13px;
+}
+
+ul#footter-gn1{
+	font-size: 13px;
+}
+ul#footter-gn2{
+	font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width: 1035px){
+
+ul#footter-gn1{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 3%;
+	font-size: 14px;
+}
+ul#footter-gn2{
+	width: 100%;
+	margin-left: 0px;
+	font-size: 14px;
+}
+ul#footter-gn1 li{
+	margin-left: 0px;
+	margin-right: 7%;
+}
+ul#footter-gn2 li{
+	margin-left: 0px;
+	margin-right: 7%;
+}
+}
+
+@media only screen and (max-width: 1024px){
+
+.dn_s{
+	display: none;
+}
+.db_s{
+	display: block;
+}
+.top_dis{
+	top: 40%;
+}
+ul#globalnav{
 	display: none;
 }
 div#ham{
@@ -245,8 +324,8 @@ div#ham{
 }
 .btn {
     display: block;
-    width:10%;
-    height: 10%;
+    width:9%;
+    height: 9%;
     position: fixed;
     top:0;
     right:0;
@@ -277,35 +356,29 @@ div#ham{
     padding: 10px;
     text-decoration: none;
 }
-ul#footter-gn1{
-	font-size: 13px;
+div#contents{
+	width: 80%;
 }
-ul#footter-gn2{
-	font-size: 13px;
+.sokusen_contents{
+	width: 90%;
 }
-
+.sokusen{
+	padding-bottom: 12%;
 }
-
-@media only screen and (max-width: 1035px){
-
-ul#footter-gn1{
-	width: 100%;
-	margin-left: 0px;
-	margin-top: 3%;
-	font-size: 14px;
+.yajirushi_sp{
+	background-color: unset;
 }
-ul#footter-gn2{
-	width: 100%;
-	margin-left: 0px;
-	font-size: 14px;
+.cv_cur{
+	width: 70%;
+	left: 15%;
+	top: 30%;
 }
-ul#footter-gn1 li{
-	margin-left: 0px;
-	margin-right: 7%;
+.cv_oto{
+	width: 70%;
+	left: 15%;
 }
-ul#footter-gn2 li{
-	margin-left: 0px;
-	margin-right: 7%;
+.kadai_sp{
+	width: 40%;
 }
 }
 

@@ -8,17 +8,48 @@ div#wrapper{
 img{
 	width: 100%;
 }
-.logo{
-	width: 27%;
+.dn{
+	display: none;
+}
+.db{
+	display: block;
+}
+.db dn_s{
+	margin-left: 10%;
+}
+.df{
+	width: 100%;
 	position: fixed;
-	top: 2%;
-	left: 3%;
+	z-index: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background: rgba(255,255,255,0.5);
+	
+}
+.gnf{
+	width: 80%;
+}
+.logo{
+	width:60%;
+	margin-top: 3%;
+	margin-left: 10%;
+}
+.firstview_img{
+	margin-left: 10%;
 }
 .top_dis{
-	width: 42%;
+	width: 60%;
 	position: absolute;
 	top: 25%;
-	left: 28%;
+	left: 0%;
+}
+.top_dis2{
+	width: 100%;
+}
+.yajirushi{
+	width: 100%;
+	background: #82cbd0;
 }
 .header_fix{
 	justify-content: space-between;
@@ -30,6 +61,67 @@ img{
 .mv{
 	position: relative;
 }
+.sokusen{
+	background: #82cbd0;
+	padding-top: 1.5%;
+	padding-bottom: 9%;
+	
+}
+.sokusen_title{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sokusen_contents{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sokusen_dis{
+	width: 65%;
+	float: left;
+}
+.sokusen_dis1{
+	
+}
+.sokusen_dis2{
+	padding-left: 2%;
+}
+.sokusen_img{
+	width: 35%;
+}
+.sokusen_footer{
+	clear: both;
+}
+.cv{
+	position: relative;
+	margin-top: 12%;
+}
+.cv_cur{
+	position: absolute;
+	top: 36%;
+	left: 30%;
+	width: 40%;
+}
+.cv_oto{
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	width: 40%;
+}
+.w95{
+	width: 95%;
+}
+.w70{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.w40{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
 .tb{
 	position: absolute;
 	width: 17%;
@@ -37,8 +129,23 @@ img{
 	left: 40%;
 	opacity: 0.7;
 }
+.mt4_2{
+	margin-top: 4.2%;
+}
+.mt16_2{
+	margin-top: 16.2%;
+}
 .mt12{
 	margin-top: 12%
+}
+.mt6{
+	margin-top: 6%;
+}
+.mt3{
+	margin-top: 3%;
+}
+.mt2{
+	margin-top: 2%;
 }
 .mb12{
 	margin-bottom: 12%;
@@ -51,21 +158,20 @@ img{
 }
 div#contents{
 	width: 70%;
-	margin: 0 14%;
+	margin: 0 auto;
 }
 div#ham{
 	display: none;
 }
 ul#globalnav{
-	width: 60%;
+	width: 100%;
 	padding: 0px;
-	font-size: 1.2vw;
+	font-size: 15px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	position: fixed;
-	top: 5%;
-	left: 40%;
+	margin-top: 4%;
+	margin-left: 12%;
 }
 ul#globalnav li{
 	list-style: none;
@@ -73,7 +179,7 @@ ul#globalnav li{
 }
 ul#globalnav li a{
 	text-decoration: none;
-	color: #ffffff;
+	color: #000000;
 }
 div#footer{
 	background-color: #39aad1;
@@ -137,11 +243,11 @@ ul#footter-gn2 li a{
 .fs25{
 	font-size: 25px;
 }
+.fs20{
+	font-size: 20px;
+}
 .fs15{
 	font-size: 15px;
-}
-.fs14v{
-	font-size: 1.4vw;
 }
 .mtb0{
 	margin-top: 0%;
@@ -166,8 +272,115 @@ hr{
 	padding-top: 3%;
 }
 
+
+/*izumiya*/
+h2.tokutyo_online{
+	text-align: center;
+	margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+	color: #50a4c2;
+
+}
+p.tokutyo_online{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+img.tokutyo_online{
+	width: 80%;
+	margin-left: 11%;
+}
+h2.shutoku_discription{
+	margin-bottom: 3%;
+	text-align: center;
+	letter-spacing: 30px;
+    font-size: 30px;
+	color:  #444444;
+}
+span.shutoku_discription{
+	width: 40%;
+	margin-left: 28%;
+	border-bottom: 3px solid #50a4c2;
+	margin-bottom: 10%;
+
+}
+p.shutoku_discription{
+	margin-bottom: 10%;
+	margin-top: 5%;
+    font-size: 20px;
+}
+img.voice{
+	width:  60%;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+h2.voice{
+	text-align: center;
+	margin-bottom: 5%;
+}
+p.voice{
+	margin-bottom: 3%;
+}
+p.voice_third_line{
+	margin-bottom: 10%;
+}
+a.voice_marker{
+	background: linear-gradient(transparent 60%, #66ccff 60%);
+}
+img.four_skill{
+	width: 100%;
+}
 @media only screen and (max-width: 1200px){
 
+ul#globalnav{
+	font-size: 13px;
+}
+
+ul#footter-gn1{
+	font-size: 13px;
+}
+ul#footter-gn2{
+	font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width: 1035px){
+
+ul#footter-gn1{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 3%;
+	font-size: 14px;
+}
+ul#footter-gn2{
+	width: 100%;
+	margin-left: 0px;
+	font-size: 14px;
+}
+ul#footter-gn1 li{
+	margin-left: 0px;
+	margin-right: 7%;
+}
+ul#footter-gn2 li{
+	margin-left: 0px;
+	margin-right: 7%;
+}
+}
+
+@media only screen and (max-width: 1024px){
+
+.dn_s{
+	display: none;
+}
+.db_s{
+	display: block;
+}
+
+.top_dis{
+	top: 40%;
+}
 ul#globalnav{
 	display: none;
 }
@@ -176,8 +389,8 @@ div#ham{
 }
 .btn {
     display: block;
-    width:10%;
-    height: 10%;
+    width:9%;
+    height: 9%;
     position: fixed;
     top:0;
     right:0;
@@ -208,35 +421,29 @@ div#ham{
     padding: 10px;
     text-decoration: none;
 }
-ul#footter-gn1{
-	font-size: 13px;
+div#contents{
+	width: 80%;
 }
-ul#footter-gn2{
-	font-size: 13px;
+.sokusen_contents{
+	width: 90%;
 }
-
+.sokusen{
+	padding-bottom: 12%;
 }
-
-@media only screen and (max-width: 1035px){
-
-ul#footter-gn1{
-	width: 100%;
-	margin-left: 0px;
-	margin-top: 3%;
-	font-size: 14px;
+.yajirushi_sp{
+	background-color: unset;
 }
-ul#footter-gn2{
-	width: 100%;
-	margin-left: 0px;
-	font-size: 14px;
+.cv_cur{
+	width: 70%;
+	left: 15%;
+	top: 30%;
 }
-ul#footter-gn1 li{
-	margin-left: 0px;
-	margin-right: 7%;
+.cv_oto{
+	width: 70%;
+	left: 15%;
 }
-ul#footter-gn2 li{
-	margin-left: 0px;
-	margin-right: 7%;
+.kadai_sp{
+	width: 40%;
 }
 }
 

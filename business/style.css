@@ -24,7 +24,7 @@ img{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.8);
 	
 }
 .gnf{
@@ -35,9 +35,9 @@ img{
 	margin-top: 3%;
 	margin-left: 10%;
 }
-.firstview_img{
+/*.firstview_img{
 	margin-left: 10%;
-}
+}*/
 .top_dis{
 	width: 60%;
 	position: absolute;
@@ -112,13 +112,28 @@ img{
 .w95{
 	width: 95%;
 }
+.w80{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .w70{
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
+.w60{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .w40{
 	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.w13{
+	width: 13%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -138,8 +153,17 @@ img{
 .mt12{
 	margin-top: 12%
 }
+.mt9{
+	margin-top: 9%;
+}
+.mt8{
+	margin-top: 8%;
+}
 .mt6{
 	margin-top: 6%;
+}
+.mt5{
+	margin-top: 5%;
 }
 .mt3{
 	margin-top: 3%;
@@ -149,6 +173,9 @@ img{
 }
 .mb12{
 	margin-bottom: 12%;
+}
+.mb3{
+	margin-bottom: 3%;
 }
 .mt05{
 	margin-top: -5px;
@@ -272,6 +299,11 @@ hr{
 	padding-top: 3%;
 }
 
+.josei{
+	font-size: 20px;
+	margin-left: 7%;
+}
+
 
 /*izumiya*/
 h2.tokutyo_online{
@@ -290,6 +322,56 @@ img.tokutyo_online{
 	width: 80%;
 	margin-left: 11%;
 }
+
+h2.tokutyo_jissen{
+	text-align: center;
+	margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+	color: #00a249;
+
+}
+p.tokutyo_jissen{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+img.tokutyo_jissen{
+	width: 80%;
+	margin-left: 11%;
+}
+h2.tokutyo_seika{
+	text-align: left;
+	margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+	color: #fc8205;
+
+}
+p.tokutyo_seika{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+img.tokutyo_seika{
+	width: 80%;
+	margin-left: 11%;
+}
+h2.tokutyo_mogi{
+	text-align: left;
+	margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+	color: #fe9b9b;
+
+}
+p.tokutyo_mogi{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+img.tokutyo_mogi{
+	width: 80%;
+	margin-left: 11%;
+}
+
 h2.shutoku_discription{
 	margin-bottom: 3%;
 	text-align: center;
@@ -300,6 +382,13 @@ h2.shutoku_discription{
 span.shutoku_discription{
 	width: 40%;
 	margin-left: 28%;
+	border-bottom: 3px solid #50a4c2;
+	margin-bottom: 10%;
+
+}
+span.shutoku_discription_kadai{
+	width: 67%;
+	margin-left: 12%;
 	border-bottom: 3px solid #50a4c2;
 	margin-bottom: 10%;
 
@@ -371,16 +460,7 @@ ul#footter-gn2 li{
 
 @media only screen and (max-width: 1024px){
 
-.dn_s{
-	display: none;
-}
-.db_s{
-	display: block;
-}
 
-.top_dis{
-	top: 40%;
-}
 ul#globalnav{
 	display: none;
 }
@@ -389,8 +469,8 @@ div#ham{
 }
 .btn {
     display: block;
-    width:9%;
-    height: 9%;
+    width:13%;
+    height: 13%;
     position: fixed;
     top:0;
     right:0;
@@ -421,30 +501,10 @@ div#ham{
     padding: 10px;
     text-decoration: none;
 }
-div#contents{
-	width: 80%;
+.josei{
+	margin-left: 0%;
 }
-.sokusen_contents{
-	width: 90%;
-}
-.sokusen{
-	padding-bottom: 12%;
-}
-.yajirushi_sp{
-	background-color: unset;
-}
-.cv_cur{
-	width: 70%;
-	left: 15%;
-	top: 30%;
-}
-.cv_oto{
-	width: 70%;
-	left: 15%;
-}
-.kadai_sp{
-	width: 40%;
-}
+
 }
 
 @media only screen and (max-width: 791px){
@@ -467,6 +527,51 @@ ul#footter-gn2 li{
 	font-size: 20px;
 }
 .fs15{
+	font-size: 10px;
+}
+.josei{
+	font-size: 15px;
+}
+}
+
+
+@media only screen and (max-width: 479px){
+.dn_s{
+	display: none;
+}
+.db_s{
+	display: block;
+}
+
+.top_dis{
+	width: 85%;
+	top: 36%;
+}
+div#contents{
+	width: 80%;
+}
+.sokusen_contents{
+	width: 90%;
+}
+.sokusen{
+	padding-bottom: 12%;
+}
+.yajirushi_sp{
+	background-color: unset;
+}
+.cv_cur{
+	width: 70%;
+	left: 15%;
+	top: 30%;
+}
+.cv_oto{
+	width: 70%;
+	left: 15%;
+}
+.kadai_sp{
+	width: 65%;
+}
+.josei{
 	font-size: 10px;
 }
 }

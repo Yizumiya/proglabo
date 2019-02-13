@@ -20,6 +20,10 @@ img{
 	width: 80%;
 	margin: 0 auto;
 }
+.w90{
+	width: 90%;
+	margin: 0 auto;
+}
 .bgf2{
 	background-color: #F2F2F2;
 }
@@ -63,7 +67,7 @@ ul#globalnav li a{
 .f_btn{
 	width: 35%;
 	position: absolute;
-	top: 64%;
+	top: 78%;
 	left: 32.5%;
 }
 div#contents{
@@ -73,6 +77,10 @@ div#contents{
 	position: absolute;
 	top: 47.5%;
 	left: 25%;
+}
+.m_btn{
+	width: 80%;
+	padding-left: 10%;
 }
 .voice{
 	width: 15%;

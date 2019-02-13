@@ -14,6 +14,9 @@ img{
 .db{
 	display: block;
 }
+.db dn_s{
+	margin-left: 10%;
+}
 .df{
 	width: 100%;
 	position: fixed;
@@ -28,10 +31,12 @@ img{
 	width: 80%;
 }
 .logo{
-	width: 90%;
+	width:75%;
 	margin-left: 10%;
 }
-
+.firstview_img{
+	margin-left: 10%;
+}
 .top_dis{
 	width: 60%;
 	position: absolute;
@@ -165,7 +170,7 @@ ul#globalnav{
 	display: -webkit-flex;
 	display: flex;
 	margin-top: 4%;
-	margin-left: 5%;
+	margin-left: 12%;
 }
 ul#globalnav li{
 	list-style: none;
@@ -267,6 +272,64 @@ hr{
 }
 
 
+/*izumiya*/
+h2.tokutyo_online{
+	text-align: center;
+	margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+	color: #50a4c2;
+
+}
+p.tokutyo_online{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+img.tokutyo_online{
+	width: 80%;
+	margin-left: 11%;
+}
+h2.shutoku_discription{
+	margin-bottom: 3%;
+	text-align: center;
+	letter-spacing: 30px;
+    font-size: 30px;
+	color:  #444444;
+}
+span.shutoku_discription{
+	width: 40%;
+	margin-left: 28%;
+	border-bottom: 3px solid #50a4c2;
+	margin-bottom: 10%;
+
+}
+p.shutoku_discription{
+	margin-bottom: 10%;
+	margin-top: 5%;
+    font-size: 20px;
+}
+img.voice{
+	width:  60%;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+h2.voice{
+	text-align: center;
+	margin-bottom: 5%;
+}
+p.voice{
+	margin-bottom: 3%;
+}
+p.voice_third_line{
+	margin-bottom: 10%;
+}
+a.voice_marker{
+	background: linear-gradient(transparent 60%, #66ccff 60%);
+}
+img.four_skill{
+	width: 100%;
+}
 @media only screen and (max-width: 1200px){
 
 ul#globalnav{
@@ -313,6 +376,7 @@ ul#footter-gn2 li{
 .db_s{
 	display: block;
 }
+
 .top_dis{
 	top: 40%;
 }

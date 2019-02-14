@@ -35,14 +35,13 @@ img{
 	margin-top: 3%;
 	margin-left: 10%;
 }
-/*.firstview_img{
+.firstview_img{
 	margin-left: 10%;
-}*/
+}
 .top_dis{
 	width: 60%;
 	position: absolute;
-	top: 25%;
-	left: 0%;
+	top: 18%;
 }
 .top_dis2{
 	width: 100%;
@@ -60,6 +59,13 @@ img{
 }
 .mv{
 	position: relative;
+}
+.sec{
+	position: relative;
+}
+.yaji2{
+	position: absolute;
+	left: 43.5%;
 }
 .sokusen{
 	background: #82cbd0;
@@ -197,8 +203,8 @@ ul#globalnav{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	margin-top: 4%;
-	margin-left: 12%;
+	margin-top: 3.5%;
+	margin-left: 0%;
 }
 ul#globalnav li{
 	list-style: none;
@@ -340,7 +346,7 @@ img.tokutyo_jissen{
 	margin-left: 11%;
 }
 h2.tokutyo_seika{
-	text-align: left;
+	text-align: center;
 	margin-right: auto;
     margin-left: auto;
     font-size: 30px;
@@ -356,7 +362,7 @@ img.tokutyo_seika{
 	margin-left: 11%;
 }
 h2.tokutyo_mogi{
-	text-align: left;
+	text-align: center;
 	margin-right: auto;
     margin-left: auto;
     font-size: 30px;
@@ -420,11 +426,8 @@ a.voice_marker{
 img.four_skill{
 	width: 100%;
 }
-@media only screen and (max-width: 1200px){
 
-ul#globalnav{
-	font-size: 13px;
-}
+@media only screen and (max-width: 1500px){
 
 ul#footter-gn1{
 	font-size: 13px;
@@ -432,11 +435,32 @@ ul#footter-gn1{
 ul#footter-gn2{
 	font-size: 13px;
 }
+}
+
+@media only screen and (max-width: 1250px){
+
+ul#globalnav{
+	font-size: 11px;
+	margin-top: 4%;
+}
+
+ul#footter-gn1{
+	font-size: 10px;
+}
+ul#footter-gn2{
+	font-size: 10px;
+}
+.josei{
+	font-size: 17px;
+}
 
 }
 
 @media only screen and (max-width: 1035px){
 
+ul#globalnav{
+	font-size: 10px;
+}
 ul#footter-gn1{
 	width: 100%;
 	margin-left: 0px;
@@ -507,6 +531,19 @@ div#ham{
 
 }
 
+@media only screen and (max-width: 920px){
+
+ul#footter-gn1{
+	font-size: 12px;
+}
+ul#footter-gn2{
+	font-size: 12px;
+}
+.josei{
+	font-size: 16px;
+}
+}
+
 @media only screen and (max-width: 791px){
 
 ul#footter-gn1{
@@ -535,14 +572,17 @@ ul#footter-gn2 li{
 }
 
 
-@media only screen and (max-width: 479px){
+
+@media only screen and (max-width: 768px){
 .dn_s{
 	display: none;
 }
 .db_s{
 	display: block;
 }
-
+.logo{
+	width:80%;
+}
 .top_dis{
 	width: 85%;
 	top: 36%;
@@ -572,6 +612,13 @@ div#contents{
 	width: 65%;
 }
 .josei{
-	font-size: 10px;
+	font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 768px){
+
+.josei{
+	font-size: 13px;
 }
 }

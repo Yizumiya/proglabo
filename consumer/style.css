@@ -75,12 +75,13 @@ div#contents{
 .s_btn{
 	width: 50%;
 	position: absolute;
-	top: 37.5%;
+	top: 30.5%;
 	left: 25%;
 }
 .m_btn{
 	width: 80%;
 	padding-left: 10%;
+	top: 10%;
 }
 
 .voice{
@@ -106,6 +107,9 @@ div#contents{
 }
 .pb4{
 	padding-bottom: 4%;
+}
+.blank{
+	height: 40px;
 }
 div#footer{
 	background-color: #39aad1;
@@ -352,4 +356,5 @@ div#footer{
 .s_tuduki a{
 	color: #ffa500;
 }
+
 }

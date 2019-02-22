@@ -16,6 +16,10 @@ img{
 .s_dn{
 	display:none;
 }
+.w70{
+	width: 70%;
+	margin: 0 auto;
+}
 .w80{
 	width: 80%;
 	margin: 0 auto;
@@ -177,8 +181,12 @@ ul#footter-gn2 li a{
 .voiceheader{
 	background-color: #39aad1;
 }
-.voicelogo{
-	width: 20%;
+.voiceheader a img{
+	width: 300px;
+}
+.blue{
+	background-color: ;
+}
 }
 
 

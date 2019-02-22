@@ -77,10 +77,10 @@ ul#globalnav li a{
 div#contents{
 }
 .s_btn{
-	width: 50%;
+	width: 55%;
 	position: absolute;
 	top: 30.5%;
-	left: 25%;
+	left: 23%;
 }
 .m_btn{
 	width: 80%;
@@ -339,8 +339,8 @@ div#footer{
 	left: 20%;
 }
 .s_btn{
-	width: 70%;
-	left: 15%;
+	width: 80%;
+	left: 12%;
 }
 .s_yaji{
 	width: 20%;
@@ -370,6 +370,52 @@ div#footer{
 }
 .s_tuduki a{
 	color: #ffa500;
+}
+
+/*ボックス全体*/
+.accbox {
+    margin: 2em 0;
+    padding: 0;
+    max-width: 400px;/*最大幅*/
+}
+
+/*ラベル*/
+.accbox label {
+    display: block;
+    margin: 1.5px 0;
+    padding : 11px 12px;
+    color :#2f8fcf;
+    font-weight: bold;
+    background :#a4cbf3;
+    cursor :pointer;
+    transition: all 0.5s;
+}
+
+/*ラベルホバー時*/
+.accbox label:hover {
+    background :#85baef;
+}
+
+/*チェックは隠す*/
+.accbox input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.accbox .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+    height: auto;
+    padding: 5px;
+    background: #eaeaea;
+    opacity: 1;
 }
 
 }

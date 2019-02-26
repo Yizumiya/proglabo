@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif,"HG明朝E",Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho",serif;
+	font-family: "游ゴシック体", "sans-selif", Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho",serif;
 }
 div#wrapper{
 	width: 100%;
@@ -50,7 +50,7 @@ div#ham img{
 	display: none;
 }
 ul#globalnav{
-	width: 60%;
+	width: 65%;
 	padding: 0px;
 	font-size: 19px;
 	display: -webkit-box;
@@ -58,7 +58,7 @@ ul#globalnav{
 	display: flex;
 	position: absolute;
 	top: 1.5%;
-	left: 40%;
+	left: 37%;
 }
 ul#globalnav li{
 	list-style: none;
@@ -68,6 +68,7 @@ ul#globalnav li a{
 	text-decoration: none;
 	color: #ffffff;
 }
+
 .f_btn{
 	width: 35%;
 	position: absolute;
@@ -228,8 +229,8 @@ div#ham img{
 }
 .btn {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: fixed;
     top:0%;
     right:0%;
@@ -329,7 +330,7 @@ div#footer{
 	display: block;
 }
 .logo{
-	width: 50%;
+	width: 40%;
 	top: 0;
 	left: 0;
 }

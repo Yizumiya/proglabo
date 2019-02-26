@@ -173,7 +173,7 @@ ul#footter-gn2 li a{
 	color: #FFFFFF;
 }
 .w51{
-	width: 51%;
+	width: 60%;
 	margin: 0 auto;
 }
 .mr8{
@@ -195,15 +195,18 @@ ul#footter-gn2 li a{
 ul#globalnav{
 	font-size: 15px;
 }
+
 .w51{
-	width: 60%;
+	width: 75%;
 }
 }
 
 @media only screen and (max-width: 1300px){
-
+ul#globalnav{
+	font-size: 13px;
+}
 .w51{
-	width: 65%;
+	width: 70%;
 }
 
 }

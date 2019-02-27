@@ -34,6 +34,27 @@ img{
 .bge7{
 	background-color: #E7F5F9;
 }
+.cal_wrapper {
+	max-width: 960px;
+	min-width: 300px;
+	margin: 2.0833% auto;
+}
+.googlecal{
+	padding-top: 30px;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 100%;
+	height: 0;
+}
+.googlecal iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
 .logo{
 	width: 22%;
 	position: absolute;
@@ -343,8 +364,9 @@ div#footer{
 	left: 20%;
 }
 .s_btn{
-	width: 80%;
+	width: 75%;
 	left: 12%;
+	top: 26%;
 }
 .s_yaji{
 	width: 20%;
@@ -369,8 +391,8 @@ div#footer{
 .s_tuduki{
 	position: absolute;
 	font-size: 15px;
-	top: 83%;
-	left: 65%;
+	top: 80%;
+	left: 56%;
 }
 .s_tuduki a{
 	color: #ffa500;
@@ -421,5 +443,7 @@ div#footer{
     background: #eaeaea;
     opacity: 1;
 }
-
+@media only screen and (min-width: 768px) {
+.googlecal { padding-bottom: 75%; }
+}
 }

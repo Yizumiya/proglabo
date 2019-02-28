@@ -426,7 +426,30 @@ a.voice_marker{
 img.four_skill{
 	width: 100%;
 }
+/*thanks_page*/
+img.thanks_img{
+ width:	100%; 
+}
+.shiryo_title{
+    font-size: 30px;
+    margin-top: 5%;
+}
+p.shiryo_discription{
 
+}
+img.thanks_check{
+	width: 10%;
+	margin-top: 8%;
+}
+.fix{
+	width:70%;
+	margin-right: auto;
+	margin-left : auto;
+	text-align: center;
+	font-family: YuGothic, 'Yu Gothic', sans-serif;
+	font-weight: normal;
+    color: #333333;
+}
 @media only screen and (max-width: 1500px){
 
 ul#footter-gn1{

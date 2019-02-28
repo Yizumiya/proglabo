@@ -38,6 +38,7 @@ img{
 	max-width: 1100px;
 	min-width: 250px;
 	margin: 2.0833% auto;
+	height: 1000px;
 }
 .googlecal{
 	width: 98%;
@@ -51,7 +52,7 @@ img{
 	top: 0;
 	left: 0;
 	width: 100% !important;
-	height: 75% !important;
+	height: 85% !important;
 	width:calc(100vw-5px);
 }
 
@@ -285,7 +286,9 @@ div#ham img{
     padding: 10px;
     text-decoration: none;
 }
-
+.cal_wrapper {
+	height: 900px;
+}
 }
 
 @media only screen and (max-width: 1020px){
@@ -301,7 +304,9 @@ div#ham img{
 .w51{
 	width: 95%;
 }
-
+.cal_wrapper {
+	height: 770px;
+}
 }
 
 @media only screen and (max-width: 820px){
@@ -338,6 +343,9 @@ ul#footter-gn2 li{
 }
 div#footer{
 	text-align: center;
+}
+.cal_wrapper {
+	height: 700px;
 }
 }
 
@@ -443,6 +451,31 @@ div#footer{
     background: #eaeaea;
     opacity: 1;
 }
+
+.cal_wrapper {
+	height: 650px;
+}	
+}
+@media only screen and (max-width: 650px){
+.cal_wrapper {
+	height: 480px;
+}	
+}
+@media only screen and (max-width: 550px){
+.cal_wrapper {
+	height: 500px;
+}	
+}
+@media only screen and (max-width: 450px){
+.cal_wrapper {
+	height: 370px;
+}
+}
+@media only screen and (max-width: 380px){
+.cal_wrapper {
+	height: 320px;
+}
+}		
 @media only screen and (min-width: 768px) {
 .googlecal { padding-bottom: 75%; }
 }

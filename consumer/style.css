@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif,"HG明朝E",Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho",serif;
+	font-family: "游ゴシック体", "sans-selif", Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho",serif;
 }
 div#wrapper{
 	width: 100%;
@@ -15,6 +15,10 @@ img{
 }
 .s_dn{
 	display:none;
+}
+.w70{
+	width: 70%;
+	margin: 0 auto;
 }
 .w80{
 	width: 80%;
@@ -30,6 +34,28 @@ img{
 .bge7{
 	background-color: #E7F5F9;
 }
+.cal_wrapper {
+	max-width: 1100px;
+	min-width: 250px;
+	margin: 2.0833% auto;
+	height: 800px;
+}
+.googlecal{
+	width: 98%;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 100%;
+	height: 0;
+}
+.googlecal iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 85% !important;
+	width:calc(100vw-5px);
+}
+
 .logo{
 	width: 22%;
 	position: absolute;
@@ -46,7 +72,7 @@ div#ham img{
 	display: none;
 }
 ul#globalnav{
-	width: 60%;
+	width: 65%;
 	padding: 0px;
 	font-size: 19px;
 	display: -webkit-box;
@@ -54,7 +80,7 @@ ul#globalnav{
 	display: flex;
 	position: absolute;
 	top: 1.5%;
-	left: 40%;
+	left: 37%;
 }
 ul#globalnav li{
 	list-style: none;
@@ -64,6 +90,7 @@ ul#globalnav li a{
 	text-decoration: none;
 	color: #ffffff;
 }
+
 .f_btn{
 	width: 35%;
 	position: absolute;
@@ -73,15 +100,17 @@ ul#globalnav li a{
 div#contents{
 }
 .s_btn{
-	width: 50%;
+	width: 55%;
 	position: absolute;
-	top: 47.5%;
-	left: 25%;
+	top: 30.5%;
+	left: 23%;
 }
 .m_btn{
 	width: 80%;
 	padding-left: 10%;
+	top: 10%;
 }
+
 .voice{
 	width: 15%;
 	margin: 0 auto;
@@ -105,6 +134,9 @@ div#contents{
 }
 .pb4{
 	padding-bottom: 4%;
+}
+.blank{
+	height: 40px;
 }
 div#footer{
 	background-color: #39aad1;
@@ -163,26 +195,43 @@ ul#footter-gn2 li a{
 	color: #FFFFFF;
 }
 .w51{
-	width: 51%;
+	width: 60%;
 	margin: 0 auto;
 }
 .mr8{
 	margin-right: 8%;
 }
+.voiceheader{
+	background-color: #39aad1;
+}
+.voiceheader a img{
+	width: 300px;
+}
+.blue{
+	background-color: ;
+}
+}
+
 
 @media only screen and (max-width: 1520px){
 ul#globalnav{
 	font-size: 15px;
 }
+
 .w51{
-	width: 60%;
+	width: 75%;
+}
+.cal_wrapper {
+	height: 700px;
 }
 }
 
 @media only screen and (max-width: 1300px){
-
+ul#globalnav{
+	font-size: 13px;
+}
 .w51{
-	width: 65%;
+	width: 70%;
 }
 
 }
@@ -193,6 +242,9 @@ ul#globalnav{
 .w51{
 	width: 76%;
 }
+.cal_wrapper {
+	height: 690px;
+}	
 }
 
 @media only screen and (max-width: 1024px){
@@ -208,8 +260,8 @@ div#ham img{
 }
 .btn {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: fixed;
     top:0%;
     right:0%;
@@ -240,7 +292,9 @@ div#ham img{
     padding: 10px;
     text-decoration: none;
 }
-
+.cal_wrapper {
+	height: 750px;
+}
 }
 
 @media only screen and (max-width: 1020px){
@@ -256,7 +310,9 @@ div#ham img{
 .w51{
 	width: 95%;
 }
-
+.cal_wrapper {
+	height: 700px;
+}
 }
 
 @media only screen and (max-width: 820px){
@@ -294,10 +350,17 @@ ul#footter-gn2 li{
 div#footer{
 	text-align: center;
 }
+.cal_wrapper {
+	height: 580px;
+}
 }
 
 @media only screen and (max-width: 750px){
 
+.w80{
+	width: 90%;
+	margin: 0 auto;
+}
 .p_dn{
 	display: none;
 }
@@ -311,10 +374,18 @@ div#footer{
 }
 .f_btn{
 	top: 73%;
+	width: 60%;
+	left: 20%;
+}
+.s_btn{
+	width: 75%;
+	left: 12%;
+	top: 26%;
 }
 .s_yaji{
 	width: 20%;
 	margin: 0 auto;
+
 }
 .s_pb10{
 	padding-bottom: 10%;
@@ -333,11 +404,85 @@ div#footer{
 }
 .s_tuduki{
 	position: absolute;
-	font-size: 7px;
-	top: 83%;
-	left: 65%;
+	font-size: 15px;
+	top: 80%;
+	left: 56%;
 }
 .s_tuduki a{
 	color: #ffa500;
+}
+
+/*ボックス全体*/
+.accbox {
+    margin: 2em 0;
+    padding: 0;
+    max-width: 400px;/*最大幅*/
+}
+
+/*ラベル*/
+.accbox label {
+    display: block;
+    margin: 1.5px 0;
+    padding : 11px 12px;
+    color :#2f8fcf;
+    font-weight: bold;
+    background :#a4cbf3;
+    cursor :pointer;
+    transition: all 0.5s;
+}
+
+/*ラベルホバー時*/
+.accbox label:hover {
+    background :#85baef;
+}
+
+/*チェックは隠す*/
+.accbox input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.accbox .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+    height: auto;
+    padding: 5px;
+    background: #eaeaea;
+    opacity: 1;
+}
+
+.cal_wrapper {
+	height: 650px;
+}	
+}
+@media only screen and (max-width: 650px){
+.cal_wrapper {
+	height: 480px;
+}	
+}
+@media only screen and (max-width: 550px){
+.cal_wrapper {
+	height: 500px;
+}	
+}
+@media only screen and (max-width: 450px){
+.cal_wrapper {
+	height: 370px;
+}
+}
+@media only screen and (max-width: 380px){
+.cal_wrapper {
+	height: 320px;
+}
+}		
+@media only screen and (min-width: 768px) {
+.googlecal { padding-bottom: 75%; }
 }
 }

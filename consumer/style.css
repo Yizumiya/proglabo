@@ -38,7 +38,7 @@ img{
 	max-width: 1100px;
 	min-width: 250px;
 	margin: 2.0833% auto;
-	height: 1000px;
+	height: 800px;
 }
 .googlecal{
 	width: 98%;
@@ -221,6 +221,9 @@ ul#globalnav{
 .w51{
 	width: 75%;
 }
+.cal_wrapper {
+	height: 700px;
+}
 }
 
 @media only screen and (max-width: 1300px){
@@ -239,6 +242,9 @@ ul#globalnav{
 .w51{
 	width: 76%;
 }
+.cal_wrapper {
+	height: 690px;
+}	
 }
 
 @media only screen and (max-width: 1024px){
@@ -287,7 +293,7 @@ div#ham img{
     text-decoration: none;
 }
 .cal_wrapper {
-	height: 900px;
+	height: 750px;
 }
 }
 
@@ -305,7 +311,7 @@ div#ham img{
 	width: 95%;
 }
 .cal_wrapper {
-	height: 770px;
+	height: 700px;
 }
 }
 
@@ -345,7 +351,7 @@ div#footer{
 	text-align: center;
 }
 .cal_wrapper {
-	height: 700px;
+	height: 580px;
 }
 }
 

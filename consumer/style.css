@@ -35,13 +35,12 @@ img{
 	background-color: #E7F5F9;
 }
 .cal_wrapper {
-	max-width: 960px;
-	min-width: 300px;
+	max-width: 1100px;
+	min-width: 250px;
 	margin: 2.0833% auto;
 }
 .googlecal{
-	padding-top: 30px;
-	width: 90%;
+	width: 98%;
 	margin: 0 auto;
 	position: relative;
 	padding-bottom: 100%;
@@ -52,8 +51,8 @@ img{
 	top: 0;
 	left: 0;
 	width: 100% !important;
-	height: 100% !important;
-	width:calc(100vw-20px);
+	height: 75% !important;
+	width:calc(100vw-5px);
 }
 
 .logo{
